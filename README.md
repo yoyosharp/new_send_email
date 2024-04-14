@@ -30,7 +30,7 @@ Before you begin, make sure you have the following:
    Or using git
 
    `
-   git clone https://github.com/TrGianggg/send_email.git
+   https://github.com/yoyosharp/new_send_email.git
    `
 
 2. **Install dependencies:**
@@ -63,8 +63,10 @@ Before you begin, make sure you have the following:
 6. **Start the application:**
    
    `
-   pm2 start index.js
+   pm2 start ecosystem.config.js
    `
+
+   
 
 ## Web Server Configuration
 
