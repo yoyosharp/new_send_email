@@ -17,10 +17,12 @@ Before you begin, make sure you have the following:
    `
 
 3. **Update sever**
-   `
+   ```
    sudo apt update
+   ```
+   ```
    sudo apt upgrade
-   `
+   ```
 
 ## Project Deployment
 
@@ -34,12 +36,12 @@ Before you begin, make sure you have the following:
    `
 
 2. **Install dependencies:**
-   `
+   ```
    cd project_directory
-   `
-   `
+   ```
+   ```
    npm install
-   `
+   ```
 
 4. **Install PM2 on your sever**
    `
