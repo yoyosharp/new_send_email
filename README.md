@@ -36,10 +36,12 @@ Before you begin, make sure you have the following:
 2. **Install dependencies:**
    `
    cd project_directory
+   `
+   `
    npm install
    `
 
-3. **Install PM2 on your sever**
+4. **Install PM2 on your sever**
    `
    sudo npm install -g pm2
    `
@@ -50,17 +52,17 @@ Before you begin, make sure you have the following:
    `
    - Config Queue on the file `ecosystem.config.js`
   
-4. **Install RabbitMQ service on your sever**
+5. **Install RabbitMQ service on your sever**
 
    - Install Earlang
    - Install RabbitMQ
    - https://youtu.be/N-AqOeaP8Ag?si=A5f8pdvC15RjeJqp
 
-5. **Configure environment variables:**
+6. **Configure environment variables:**
    Copy content from the `.env.example` to `.env` (create the file if needed).
    Edit the `.env` file and configure database connection and other environment variables as needed.
 
-6. **Start the application:**
+7. **Start the application:**
    
    `
    pm2 start ecosystem.config.js
